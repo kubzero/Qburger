@@ -1,0 +1,6 @@
+framework module FoursquareKit {
+  umbrella header "FoursquareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
