@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		106C0EC9E89A8A2798EAAE09 /* Pods_Qburger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBEBA6DD5E48F66D1166A3 /* Pods_Qburger.framework */; };
+		4943CC7C21F490D700CBC02E /* ViewController+MKMapExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943CC7B21F490D700CBC02E /* ViewController+MKMapExtention.swift */; };
+		4943CC7E21F494A500CBC02E /* ViewController+BurgerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943CC7D21F494A500CBC02E /* ViewController+BurgerAPI.swift */; };
+		4943CC8021F4966300CBC02E /* ViewContoller+ImageUrlFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943CC7F21F4966300CBC02E /* ViewContoller+ImageUrlFetching.swift */; };
+		4943CC8221F498FB00CBC02E /* FoursquareAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943CC8121F498FB00CBC02E /* FoursquareAPI.swift */; };
+		4943CC8421F4A7ED00CBC02E /* ViewController+FetchJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943CC8321F4A7ED00CBC02E /* ViewController+FetchJSON.swift */; };
 		4946C44821EA300100EAC202 /* Recognize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C44721EA300100EAC202 /* Recognize.swift */; };
 		4946C44A21EA354900EAC202 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C44921EA354900EAC202 /* Responses.swift */; };
 		4946C45421EBB3E200EAC202 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C45321EBB3E200EAC202 /* DetailViewController.swift */; };
@@ -26,6 +31,11 @@
 
 /* Begin PBXFileReference section */
 		232A05B20BF7F7E9D376B3C2 /* Pods-Qburger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qburger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qburger/Pods-Qburger.debug.xcconfig"; sourceTree = "<group>"; };
+		4943CC7B21F490D700CBC02E /* ViewController+MKMapExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+MKMapExtention.swift"; sourceTree = "<group>"; };
+		4943CC7D21F494A500CBC02E /* ViewController+BurgerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+BurgerAPI.swift"; sourceTree = "<group>"; };
+		4943CC7F21F4966300CBC02E /* ViewContoller+ImageUrlFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewContoller+ImageUrlFetching.swift"; sourceTree = "<group>"; };
+		4943CC8121F498FB00CBC02E /* FoursquareAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareAPI.swift; sourceTree = "<group>"; };
+		4943CC8321F4A7ED00CBC02E /* ViewController+FetchJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+FetchJSON.swift"; sourceTree = "<group>"; };
 		4946C44721EA300100EAC202 /* Recognize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognize.swift; sourceTree = "<group>"; };
 		4946C44921EA354900EAC202 /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
 		4946C45321EBB3E200EAC202 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				4946C45521ED0E7A00EAC202 /* SingleTone.swift */,
+				4943CC8121F498FB00CBC02E /* FoursquareAPI.swift */,
 				498197CD21E4FE0C00292854 /* Restaurants.swift */,
 				496BBD8D21F258AD006AB275 /* Explore.swift */,
 				498197CF21E5078C00292854 /* MainArray.swift */,
@@ -114,6 +125,10 @@
 				498197D221E507E400292854 /* applefiles */,
 				498197D121E507C000292854 /* Models */,
 				4986ACE921E3AE2B00A07B58 /* ViewController.swift */,
+				4943CC8321F4A7ED00CBC02E /* ViewController+FetchJSON.swift */,
+				4943CC7F21F4966300CBC02E /* ViewContoller+ImageUrlFetching.swift */,
+				4943CC7D21F494A500CBC02E /* ViewController+BurgerAPI.swift */,
+				4943CC7B21F490D700CBC02E /* ViewController+MKMapExtention.swift */,
 				4946C45321EBB3E200EAC202 /* DetailViewController.swift */,
 				4986ACEB21E3AE2B00A07B58 /* Main.storyboard */,
 				4986ACEE21E3AE2C00A07B58 /* Assets.xcassets */,
@@ -247,10 +262,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4946C45821EE424500EAC202 /* CollectionViewCell.swift in Sources */,
+				4943CC7E21F494A500CBC02E /* ViewController+BurgerAPI.swift in Sources */,
 				4946C44821EA300100EAC202 /* Recognize.swift in Sources */,
+				4943CC8421F4A7ED00CBC02E /* ViewController+FetchJSON.swift in Sources */,
+				4943CC8221F498FB00CBC02E /* FoursquareAPI.swift in Sources */,
 				498197CE21E4FE0C00292854 /* Restaurants.swift in Sources */,
+				4943CC7C21F490D700CBC02E /* ViewController+MKMapExtention.swift in Sources */,
 				4986ACEA21E3AE2B00A07B58 /* ViewController.swift in Sources */,
 				498197D021E5078C00292854 /* MainArray.swift in Sources */,
+				4943CC8021F4966300CBC02E /* ViewContoller+ImageUrlFetching.swift in Sources */,
 				4986ACE821E3AE2B00A07B58 /* AppDelegate.swift in Sources */,
 				4946C45621ED0E7A00EAC202 /* SingleTone.swift in Sources */,
 				496BBD8E21F258AD006AB275 /* Explore.swift in Sources */,
